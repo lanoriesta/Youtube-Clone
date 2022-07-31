@@ -6,28 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Youtube</title>
 
-		<link rel="stylesheet" href="styles/videos.css">
-		<link rel="stylesheet" href="/Youtube/styles/general.css">
-		<link rel="stylesheet" href="/Youtube/styles/header.css">
-		<link rel="stylesheet" href="/Youtube/styles/sidebar.css">
+		<link rel="stylesheet" href="/styles/videos.css">
+		<link rel="stylesheet" href="/styles/general.css">
+		<link rel="stylesheet" href="/styles/header.css">
+		<link rel="stylesheet" href="/styles/sidebar.css">
 	</head>
 	<body>
 		<!-- Header -->
-		<div class="header-container">
+		<header class="header-container">
 			<div class="left-container">
-				<img src="/Youtube/icons/hamburger-menu.svg" alt="hamburger-menu" class="hamburger-menu">
-				<img src="/Youtube/icons/youtube-logo.svg" alt="youtube-logo" class="youtube-logo">
+				<img src="/icons/hamburger-menu.svg" alt="hamburger-menu" class="hamburger-menu">
+				<img src="/icons/youtube-logo.svg" alt="youtube-logo" class="youtube-logo">
 			</div>
 			<div class="middle-container">
 				<input type="text" class="search" name="search" id="search" placeholder="Search">
 				<button>
-					<img src="/Youtube/icons/search.svg" alt="search">
+					<img src="/icons/search.svg" alt="search">
 					<div class="tooltips">
 						Search
 					</div>
 				</button>
 				<button>
-					<img src="/Youtube/icons/voice-search-icon.svg" alt="voice-search-icon">
+					<img src="/icons/voice-search-icon.svg" alt="voice-search-icon">
 					<div class="tooltips">
 						Search with your voice
 					</div>
@@ -35,19 +35,19 @@
 			</div>
 			<div class="right-container">
 				<div class="upload-box">
-					<img src="/Youtube/icons/upload.svg" alt="upload">
+					<img src="/icons/upload.svg" alt="upload">
 					<div class="tooltips">
 						Create
 					</div>
 				</div>
 				<div class="apps-box">
-					<img src="/Youtube/icons/youtube-apps.svg" alt="youtube-apps">
+					<img src="/icons/youtube-apps.svg" alt="youtube-apps">
 					<div class="tooltips">
 						Apps
 					</div>
 				</div>
 				<div class="notif-box">
-					<img src="/Youtube/icons/notifications.svg" alt="notifications">
+					<img src="/icons/notifications.svg" alt="notifications">
 					<div class="notif-stats">
 						3
 					</div>
@@ -55,53 +55,53 @@
 						Notifications
 					</div>
 				</div>
-				<img src="/Youtube/icons/my-channel.jpeg" alt="my-channel">
+				<img src="/icons/my-channel.jpeg" alt="my-channel">
 			</div>
-		</div>
+		</header>
 
 		<!-- Sidebar -->
-		<div class="sidebar-container">
+		<nav class="sidebar-container">
 			<div class="sidebar-link">
-				<img src="/Youtube/icons/home.svg" alt="home">
+				<img src="/icons/home.svg" alt="home">
 				<p>
 					Home
 				</p>
 			</div>
 			<div class="sidebar-link">
-				<img src="/Youtube/icons/explore.svg" alt="explore">
+				<img src="/icons/explore.svg" alt="explore">
 				<p>
 					Explore
 				</p>
 			</div>
 			<div class="sidebar-link">
-				<img src="/Youtube/icons/subscriptions.svg" alt="subscriptions">
+				<img src="/icons/subscriptions.svg" alt="subscriptions">
 				<p>
 					Subscriptions
 				</p>
 			</div>
 			<div class="sidebar-link">
-				<img src="/Youtube/icons/originals.svg" alt="originals">
+				<img src="/icons/originals.svg" alt="originals">
 				<p>
 					Originals
 				</p>
 			</div>
 			<div class="sidebar-link">
-				<img src="/Youtube/icons/youtube-music.svg" alt="youtube-music">
+				<img src="/icons/youtube-music.svg" alt="youtube-music">
 				<p>
 					YouTube Music
 				</p>
 			</div>
 			<div class="sidebar-link">
-				<img src="/Youtube/icons/library.svg" alt="library">
+				<img src="/icons/library.svg" alt="library">
 				<p>
 					Library
 				</p>
 			</div>
-		</div>
+		</nav>
 
 		<!-- Videos -->
-		<div class="container-items">
-			<div class="container">
+		<main class="container-items">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-1.webp" alt="thumbnail-1">
 					<div class="time">
@@ -112,7 +112,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-1.jpeg" alt="channel-1">
+						<img src="/images/channel-1.jpeg" alt="channel-1">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -126,9 +126,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 	
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-2.webp" alt="thumbnail-2">
 					<div class="time">
@@ -139,7 +139,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-2.jpeg" alt="channel-2">
+						<img src="/images/channel-2.jpeg" alt="channel-2">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -153,9 +153,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 	
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-3.webp" alt="thumbnail-3">
 					<div class="time">
@@ -166,7 +166,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-3.jpeg" alt="channel-3">
+						<img src="/images/channel-3.jpeg" alt="channel-3">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -180,9 +180,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-4.webp" alt="thumbnail-4">
 					<div class="time">
@@ -193,7 +193,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-4.jpeg" alt="channel-4">
+						<img src="/images/channel-4.jpeg" alt="channel-4">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -207,9 +207,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-5.webp" alt="thumbnail-5">
 					<div class="time">
@@ -220,7 +220,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-5.jpeg" alt="channel-5">
+						<img src="/images/channel-5.jpeg" alt="channel-5">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -234,9 +234,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-6.webp" alt="thumbnail-6">
 					<div class="time">
@@ -247,7 +247,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-6.jpeg" alt="channel-6">
+						<img src="/images/channel-6.jpeg" alt="channel-6">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -261,9 +261,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-7.webp" alt="thumbnail-7">
 					<div class="time">
@@ -274,7 +274,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-7.jpeg" alt="channel-7">
+						<img src="/images/channel-7.jpeg" alt="channel-7">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -288,9 +288,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-8.webp" alt="thumbnail-8">
 					<div class="time">
@@ -301,7 +301,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-8.jpeg" alt="channel-8">
+						<img src="/images/channel-8.jpeg" alt="channel-8">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -315,9 +315,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="container">
+			<section class="container">
 				<div class="container-imgVideo">
 					<img class="imgVideo" src="images/thumbnail-9.webp" alt="thumbnail-9">
 					<div class="time">
@@ -328,7 +328,7 @@
 				</div>
 				<div class="container-info">
 					<div class="container-profileImg">
-						<img src="/Youtube/images/channel-9.jpeg" alt="channel-9">
+						<img src="/images/channel-9.jpeg" alt="channel-9">
 					</div>
 					<div class="container-profileInfo">
 						<p class="video-title">
@@ -342,8 +342,8 @@
 						</p>
 					</div>
 				</div>
-			</div>
-		</div>
+			</section>
+		</main>
 
 	</body>
 </html>
